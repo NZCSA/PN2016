@@ -1,0 +1,64 @@
+/* -------------------- Table of contents --------------------
+
+1. Sections
+    1.1. Intro
+    1.1. Counters
+    1.1. Subscribe
+    1.1. SignUp
+
+----------------------- Table of content -------------------- */
+
+/* --------------------
+   -------------------- Intro -------------------- */
+.b-intro__background { background-image: url('../../images/bg_1.jpg'); }
+
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('../../images/bg_2.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('../../images/bg_3.jpg'); }
+
+.m-touch .b-intro__video { background-image: url('../../images/header.jpg'); }
+
+/* --------------------
+   -------------------- Counters -------------------- */
+.b-counters { background-image: url('../../images/bg_2.jpg'); }
+
+/* --------------------
+   -------------------- Subscribe -------------------- */
+.b-subscribe { background-image: url('../../images/bg_3.jpg'); }
+
+/* --------------------
+   -------------------- SignUp -------------------- */
+.b-signUp { background-image: url('../../images/bg_1.jpg'); }
+
+
+@media(max-width: 767px){
+    /** override bootstrap container for mobile **/
+    .container-xs {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+@media(max-width: 768px){
+  .header-logo{
+    content: url("../../img/mobile-logo.png");
+
+  }
+}
+
+@media(min-width: 768px){
+  .header-logo{
+    content: url("../../img/desktop-logo.png");
+
+  }
+}
+
+#backtop {
+  content:url("../../img/rsvpicon.png");
+    position:fixed;
+    /**position:absolute;**/
+    height: 5em;
+    width: 5em;
+    margin-left:20%; 
+    left:55%;
+    bottom:2%;
+}

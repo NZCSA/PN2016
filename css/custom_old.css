@@ -1,0 +1,48 @@
+/* -------------------- Table of contents --------------------
+
+1. Sections
+    1.1. Intro
+    1.1. Counters
+    1.1. Subscribe
+    1.1. SignUp
+
+----------------------- Table of content -------------------- */
+
+/* --------------------
+   -------------------- Intro -------------------- */
+.b-intro__background { background-image: url('../../images/bg_1.jpg'); }
+
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('../../images/bg_2.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('../../images/bg_3.jpg'); }
+
+.m-touch .b-intro__video { background-image: url('../../images/header.jpg'); }
+
+/* --------------------
+   -------------------- Counters -------------------- */
+.b-counters { background-image: url('../../images/bg_2.jpg'); }
+
+/* --------------------
+   -------------------- Subscribe -------------------- */
+.b-subscribe { background-image: url('../../images/bg_3.jpg'); }
+
+/* --------------------
+   -------------------- SignUp -------------------- */
+.b-signUp { background-image: url('../../images/bg_1.jpg'); }
+/* --------------------
+   -------------------- Fix Button -------------------- */
+#fixedbutton1 {
+	background-color: red;
+    position: fixed;
+    bottom: 80px;
+    right: 20px; 
+	width: 50px;
+	height: 50px;
+}
+#fixedbutton2 {
+	background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+	width: 50px;
+	height: 50px;
+}
